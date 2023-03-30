@@ -154,7 +154,7 @@ function draw(interp) {
   );
 
   if (should_update_score) {
-    score_title.textContent = "Score: " + score;
+    score_title.textContent = "💸" + score;
     should_update_score = false;
   }
 }

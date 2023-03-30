@@ -62,6 +62,9 @@
 		width: 90%;
 		margin-top: 5rem;
 	};
+	body {
+		position: relative;
+	}
 }
 
 .background_animate {
@@ -105,6 +108,7 @@
 }
 
 body {
+	-ms-layout-grid-line: auto;
 	align-items: center;
 	justify-content: center;
 	display: flex;
