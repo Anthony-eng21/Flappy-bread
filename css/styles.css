@@ -45,6 +45,7 @@
 	width: 400px;
 	height: 600px;
 	overflow: hidden;
+	margin-bottom: 1rem;
 }
 
 .game_container {
@@ -104,10 +105,14 @@
 }
 
 body {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
 	height: 100vh;
 	width: 100vw;
-	background: rgb(2, 0, 36);
-	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 121, 58, 1) 48%, rgba(0, 212, 255, 1) 100%);
+	overflow: hidden;
+	background-image: url("../assets/img/Wallpapers-HD-Forest.jpg");
 }
 
 .background {
@@ -145,9 +150,9 @@ body {
 	position: absolute;
 	z-index: 10;
 	height: 10vh;
-	font-size: 2rem;
+	font-size: 3rem;
 	font-weight: 100;
-	color: #f8d060;
+	color: #b88d18;
 	top: 5px;
 	left: 10px;
 }

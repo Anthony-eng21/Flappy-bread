@@ -47,8 +47,8 @@ function begin() {
   if (has_died) revive();
 
   //update the DOM buttons to the in-game state
-  toggle_buttons(true);
-  toggle_animations(true);
+  // toggle_buttons(true);
+  // toggle_animations(true);
 }
 
 /**
@@ -162,7 +162,7 @@ function draw(interp) {
  * This end function is called by the game loop when the loop exits
  */
 function end() {
-  toggle_buttons(false);
+  // toggle_buttons(false);
   toggle_animations(false);
 }
 /**
@@ -219,10 +219,10 @@ function reset_pipes() {
  * update the DOM buttons styles to match the game's state
  * @param {boolean} has_started has the game started?
  */
-function toggle_buttons(has_started) {
-  flap_button.style.display = has_started ? "block" : "none";
-  start_button.style.display = has_started ? "none" : "block";
-}
+// function toggle_buttons(has_started) {
+//   flap_button.style.display = has_started ? "block" : "none";
+//   start_button.style.display = has_started ? "none" : "block";
+// }
 
 /**
  * Update the DOM elements animation state
